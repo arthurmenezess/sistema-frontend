@@ -1,0 +1,17 @@
+button { 
+    width: 100%;
+}
+
+.box input[type="email"], /*tanto faz ser .box ou so input. INPUT: todos os inputs vao ser width 100%*/ 
+input[type="password"] { /*.box :todos os inputs dentro do box vao ser com width 100%*/
+    width: 100%;
+}
+
+.esqueceu-senha {
+    float: left;
+    font-size: 14px
+}
+
+.box {
+    width: 300px
+}

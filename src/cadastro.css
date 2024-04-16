@@ -1,0 +1,67 @@
+.box {
+    width: 300px
+}
+
+    .box button {
+        width: 100%
+    }
+
+.input-field {
+    width: 280px
+}
+
+.row {
+    margin: 10px;
+    display: block;
+}
+
+label {
+    display: inline-block;
+    margin: 5px 0 0;
+}
+
+.rigth {
+    margin-top: 15px;
+}
+
+.left {
+    margin-right: 40px
+}
+
+input[type="password"] {
+    width: 100%;
+}
+
+/*desktop*/
+
+@media only screen and (min-width: 768px) { /*tudo que eu trabalhar aqui dentro será estilos especificos aos desktops. o abaixo de 768 é mobile*/
+
+    .row {
+        display: flex;
+        margin: 18px 0
+    }
+
+    .box {
+        width: 720px
+    }
+
+    .input-field {
+        width: 340px
+    }
+
+    .rigth {
+        margin: 0
+    }
+
+    .left {
+        margin-right: 40px
+    }
+
+    button {
+        width: 100%
+    }
+
+    input[type="password"] {
+        width: 100%
+    }
+}
